@@ -1,0 +1,43 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  padding: 15px 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.nav__ul {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__li {
+  padding: 0 10px;
+}
+.nav__a {
+  position: relative;
+  color: #2e363e;
+}
+.nav__chat__notification {
+  background-color: tomato;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+  position: absolute;
+  left: 20px;
+  top: -15px;
+}
+.nav__else__notification {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  left: 35px;
+  top: -9px;
+}

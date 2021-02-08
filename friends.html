@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Friends - Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fas fa-wifi"></i>
+        <!--아이콘 태그는 i로 만약에 이미지소스로 아이콘을 할당하면 어떻게 쓰는 거지?-->
+      </div>
+      <div class="status-bar__column js-clock">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11.0%</span>
+        <i class="fas fa-battery-quarter"></i>
+        <!--Battery Icon-->
+        <i class="fas fa-bolt"></i>
+        <!--Lightning Icon-->
+      </div>
+    </div>
+
+    <header></header>
+
+    <nav class="nav">
+      <ul class="nav__ul">
+        <li class="nav__li">
+          <a class="nav__a" href="friends.html"> <i class="fas fa-user fa-2x"></i> </a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__a" href="#">
+            <span class="nav__chat__notification">1</span
+            ><!--이런 걸 JS로 조정할 수 있겠지-->
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__a" href="#"> <i class="fas fa-search fa-2x"></i> </a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__a" href="#">
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+            <span class="nav__else__notification"></span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+  </body>
+</html>
