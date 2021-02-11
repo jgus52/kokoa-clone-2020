@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Find - Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fas fa-wifi"></i>
+        <!--아이콘 태그는 i로 만약에 이미지소스로 아이콘을 할당하면 어떻게 쓰는 거지?-->
+      </div>
+      <div class="status-bar__column js-clock">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11.0%</span>
+        <i class="fas fa-battery-quarter"></i>
+        <!--Battery Icon-->
+        <i class="fas fa-bolt"></i>
+        <!--Lightning Icon-->
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Finds</h1>
+      <div class="screen-header__icon">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span>
+          <i class="fas fa-cog fa-lg"></i>
+          <span class="badge_notification screen-header_notification"></span>
+        </span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="find-icons">
+        <div class="find-icons__icon">
+          <i class="fas fa-qrcode fa-2x"></i>
+          <span>QR Code</span>
+        </div>
+        <div class="find-icons__icon">
+          <i class="far fa-address-book fa-2x"></i>
+          <span>Add by<br />Contacts</span>
+        </div>
+        <div class="find-icons__icon">
+          <i class="fas fa-fingerprint fa-2x"></i>
+          <span>Add by ID</span>
+        </div>
+        <div class="find-icons__icon">
+          <i class="far fa-envelope fa-2x"></i>
+          <span>Invite</span>
+        </div>
+      </div>
+
+      <div class="recommend-friend">
+        <h6 class="recommend-friend__title">Recommended Friends</h6>
+        <div class="recommend-friend__list">
+          <div class="user-component">
+            <div class="user-component__column">
+              <img src="img\김준규.jpg" class="user-component_profileimg--sm" alt="" />
+              <div class="user-component__text">
+                <h4 class="user-component__title--sm">JG</h4>
+                <span class="user-component__subtitle">You may know him/her!</span>
+              </div>
+            </div>
+            <div class="user-component__column">
+              <i class="fas fa-plus"></i>
+            </div>
+          </div>
+
+          <div class="user-component">
+            <div class="user-component__column">
+              <img src="" class="user-component_profileimg--sm" alt="" />
+              <div class="user-component__text">
+                <h4 class="user-component__title--sm">Kakao Channel</h4>
+                <span class="user-component__subtitle">You may know him/her!</span>
+              </div>
+            </div>
+            <div class="user-component__column">
+              <i class="fas fa-plus"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__ul">
+        <li class="nav__li">
+          <a class="nav__a" href="friends.html"> <i class="far fa-user fa-2x"></i> </a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__a" href="chats.html">
+            <span class="nav__chat__notification badge">1</span>
+            <!--이런 걸 JS로 조정할 수 있겠지-->
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__a" href="search.html"> <i class="fas fa-search fa-2x"></i> </a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__a" href="more.html">
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+            <span class="nav__else__notification"></span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+  </body>
+</html>
