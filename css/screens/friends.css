@@ -88,7 +88,7 @@
   }
 }
 #friend-btn:checked ~ .user-component-detail {
-  animation: detailAnimation 0.5s linear forwards;
+  animation: detailAnimation 10s linear forwards;
   display: flex;
   z-index: 99;
 }
