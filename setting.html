@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Chats - Kokoa Clone</title>
+    <title>Setting - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -25,32 +25,54 @@
       </div>
     </div>
 
-    <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
-      <div class="screen-header__icon">
+    <header class="screen-alter-header">
+      <div class="screen-alter-header__column">
+        <a href="more.html">
+          <span><i class="fas fa-chevron-left"></i></span>
+        </a>
+      </div>
+      <div class="screen-alter-header__column">
+        <span class="screen-alter-header-title">Settings</span>
+      </div>
+      <div class="screen-alter-header__column">
         <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="far fa-comment-dots fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
       </div>
     </header>
 
     <main class="main-screen">
-      <a href="chatting-room.html">
-        <div class="user-component">
-          <div class="user-component__column">
-            <img src="img\스마일.jpg" class="user-component_profileimg" alt="" />
-            <div class="user-component__text">
-              <h4 class="user-component__title">JG</h4>
-              <h5 class="user-component__subtitle">Please check My Kakao Account info</h5>
-            </div>
-          </div>
-          <div class="user-component__column">
-            <h4 class="user-component__time">21:22</h4>
-            <span class="badge chat_notif">1</span>
-          </div>
-        </div>
-      </a>
+      <ul class="setting-list">
+        <li class="setting__setting">
+          <span><i class="fas fa-bullhorn"></i></span>
+          <span>Notices</span>
+        </li>
+        <li class="setting__setting">
+          <span><i class="fas fa-flask"></i></span>
+          <span>Kakao Lab</span>
+        </li>
+        <li class="setting__setting">
+          <span><i class="fas fa-info-circle"></i></span>
+          <span>Version</span>
+          <span class="setting__setting__sub">latest version</span>
+        </li>
+      </ul>
+
+      <ul class="setting-list">
+        <li class="setting__setting"><span></span><span>Privacy</span></li>
+        <li class="setting__setting"><span></span><span>Notification</span></li>
+        <li class="setting__setting"><span></span><span>Friends</span></li>
+        <li class="setting__setting"><span></span><span>Chats</span></li>
+        <li class="setting__setting">
+          <span></span>
+          <span>Display</span>
+          <span class="setting__setting_notification"><i class="fas fa-plus-circle"></i> </span>
+        </li>
+        <li class="setting__setting">
+          <span></span><span>Themes</span> <span class="setting__setting_notification"><i class="fas fa-plus-circle"></i> </span>
+
+          <span class="setting__setting__sub">Default theme</span>
+        </li>
+        <li class="setting__setting"><span></span><span>Call</span></li>
+      </ul>
     </main>
 
     <nav class="nav">
@@ -62,7 +84,7 @@
           <a class="nav__a" href="chats.html">
             <span class="nav__chat__notification badge">1</span>
             <!--이런 걸 JS로 조정할 수 있겠지-->
-            <i class="fas fa-comment fa-2x"></i>
+            <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__li">

@@ -1,0 +1,19 @@
+.setting__setting {
+  display: flex;
+  border-bottom: var(--main-border);
+  padding: 20px 3px;
+}
+.setting__setting:last-child {
+  padding-bottom: 30px;
+}
+.setting__setting i {
+  margin-right: 5px;
+}
+.setting__setting__sub {
+  margin-left: auto;
+  color: var(--gray);
+}
+.setting__setting_notification {
+  color: tomato;
+  margin-left: 5px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>JG chatting - Kokoa Clone</title>
+  </head>
+  <body id="chatting-room">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fas fa-wifi"></i>
+        <!--아이콘 태그는 i로 만약에 이미지소스로 아이콘을 할당하면 어떻게 쓰는 거지?-->
+      </div>
+      <div class="status-bar__column js-clock">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11.0%</span>
+        <i class="fas fa-battery-quarter"></i>
+        <!--Battery Icon-->
+        <i class="fas fa-bolt"></i>
+        <!--Lightning Icon-->
+      </div>
+    </div>
+
+    <header class="screen-alter-header">
+      <div class="screen-alter-header__column">
+        <a href="chats.html"><i class="fas fa-chevron-left"></i> </a>
+      </div>
+      <div class="screen-alter-header__column">
+        <span class="screen-alter-header-title">JG</span>
+      </div>
+      <div class="screen-alter-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, Junge 30, 2020</div>
+      <div class="chat__received">
+        <img class="chat__received__img" src="img/스마일.jpg"></img>
+        <div class="chat__content">
+          <span class="chat__sender">JG</span>
+          <div class="chat__content__message">
+            <span class="chat__bubble">Hi!</span>
+            <span class="chat__time">21:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="chat__sent">
+        <div class="chat__content">
+          <div class="chat__content__message">
+            <span class=" chat__bubble">what's up!</span>
+            <span class="chat__time">21:27</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" />
+        <i class="far fa-smile fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>Your screen is too big</span>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+  </body>
+</html>

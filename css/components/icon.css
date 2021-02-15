@@ -1,0 +1,32 @@
+.icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.icons__icon {
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  align-items: center;
+}
+.icons__icon i {
+  margin-bottom: 10px;
+}
+.icons__icon span {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.user-component-detail .icons {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 1px rgba(245, 245, 245, 0.3);
+  padding-top: 20px;
+}
+.user-component-detail .icons__icon {
+  width: 10%;
+  flex-direction: column;
+  align-items: center;
+}
