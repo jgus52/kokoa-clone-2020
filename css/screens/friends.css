@@ -81,14 +81,14 @@
 }
 @keyframes detailAnimation {
   from {
-    opacity: 0;
+    opacity: 0.5;
   }
   to {
     opacity: 1;
   }
 }
 #friend-btn:checked ~ .user-component-detail {
-  animation: detailAnimation 10s linear forwards;
+  animation: detailAnimation 1s linear forwards;
   display: flex;
   z-index: 99;
 }
